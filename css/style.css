@@ -2,3 +2,9 @@
      height: 200px;
      border-radius: 25px;
  }
+
+ .portfolio-modal {
+     height: 70%;
+     width: 70%;
+     margin: auto;
+ }
