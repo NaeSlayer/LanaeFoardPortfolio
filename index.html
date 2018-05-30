@@ -61,7 +61,7 @@
       <img class="img-fluid mb-5 d-block mx-auto rounded-circle" src="img/profile.jpg" alt="">
       <h1 class="text-uppercase mb-0">Lanae Foard</h1>
       <hr class="star-light">
-      <h2 class="font-weight-light mb-0">Full Stack Web Developer</h2>
+      <h2 class="font-weight-light mb-0">Full-Stack Web Developer</h2>
     </div>
   </header>
 
@@ -206,9 +206,16 @@
       <hr class="star-dark mb-5">
       <div class="row">
         <div class="col-lg-8 mx-auto">
+          <h3 class="contact-email">rlfoard@gmail.com</h3>
+          <h3 class="contact-phone">512-796-1025</h3>
+          <!--this makes the email a link, but it breaks other stuff  -->
+          <!-- <h3 class="contact-email">
+            <a href="mailto:rlfoard@gmail.com">rlfoard@gmail.com</h3>
+          <h3 class="contact-phone">512-796-1025</h3> -->
+
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
           <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+          <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Name</label>
@@ -242,7 +249,7 @@
             <div class="form-group">
               <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
             </div>
-          </form>
+          </form> -->
         </div>
       </div>
     </div>
@@ -324,9 +331,11 @@
             <h2 class="text-secondary text-uppercase mb-0">Wonka Hangman</h2>
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-5" src="img/portfolio/wonka.jpg" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
-              recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-              itaque. Nam.</p>
+            <p class="mb-5">This project is a JavaScript Hangman game.
+              <br>The theme of the game is the movie "Willy Wonka and the Chocolate Factory"
+              <br>Gameplay: Press any letter key to begin. Continue guessing letters until either the word is complete or the
+              number of guesses remaining reaches 0. After a win or a loss a new word will load.
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill" href="https://naeslayer.github.io/Hangman-Game/" target="_blank">
               <i class="fa"></i>
               Play Game!</a>
@@ -351,9 +360,11 @@
             <h2 class="text-secondary text-uppercase mb-0">Crystal Collector</h2>
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-5" src="img/portfolio/crystal1.jpg" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
-              recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-              itaque. Nam.</p>
+            <p class="mb-5">You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal
+              you will add a specific amount of points to your total score. You win the game by matching your total score
+              to the random number. You lose the game if your total score goes above the random number. The value of each
+              crystal is hidden until you click on it. The random number to guess and the values of each crystal will change
+              each time the game starts.</p>
             <a class="btn btn-primary btn-lg rounded-pill" href="https://naeslayer.github.io/week-4-game/" target="_blank">
               <i class="fa"></i>
               Play Game!</a>
@@ -378,9 +389,11 @@
             <h2 class="text-secondary text-uppercase mb-0">Olympic Trivia</h2>
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-5" src="img/portfolio/olympic-games.png" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
-              recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-              itaque. Nam.</p>
+            <p class="mb-5">Welcome to Olympic Trivia!!
+              <br>This is a Trivia game about the Olympics, both anciecnt and modern. Click the button to begin. The first question
+              and four answer choices will appear. Click one of the buttons to select an answer, but watch the timer, if
+              time runs out you won't get to answer! The next question will load automatically and at the end of the game
+              a summary page will show how many questions you got correct and incorrect as well as how many were unanswered.</p>
             <a class="btn btn-primary btn-lg rounded-pill" href="https://naeslayer.github.io/TriviaGame/" target="_blank">
               <i class="fa"></i>
               Play Game!</a>
@@ -405,9 +418,9 @@
             <h2 class="text-secondary text-uppercase mb-0">Giphy API</h2>
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-5" src="img/portfolio/the-office.jpg" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
-              recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-              itaque. Nam.</p>
+            <p class="mb-5">Welcome to The Office Giphy API!
+              <br>Select a character from the TV show, The Office, to load 10 gifs. Then hover over each image to play the gif.
+              <br>You can also add more characters by typing another character's name in the box and clicking on submit!</p>
             <a class="btn btn-primary btn-lg rounded-pill" href="https://naeslayer.github.io/giphyAPI/" target="_blank">
               <i class="fa"></i>
               Check It Out!</a>
@@ -432,9 +445,11 @@
             <h2 class="text-secondary text-uppercase mb-0">Firebase Train Scheduler</h2>
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-5" src="img/portfolio/train.jpg" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
-              recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-              itaque. Nam.</p>
+            <p class="mb-5">This is a train schedule application that incorporates Firebase to host arrival and departure data. It will retrieve
+              and manipulate this information with Moment.js. This website will provide up-to-date information about various
+              trains, namely their arrival times and how many minutes remain until they arrive at their station.
+              <br>To use this app, just enter Train Name, Destination, First Train time (00:00-military time), and Frequency
+              (min), then hit "Submit"!</p>
             <a class="btn btn-primary btn-lg rounded-pill" href="https://naeslayer.github.io/TrainScheduler/" target="_blank">
               <i class="fa"></i>
               Check It Out!</a>
@@ -459,9 +474,10 @@
             <h2 class="text-secondary text-uppercase mb-0">Node LIRI APP</h2>
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-5" src="img/portfolio/node.png" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
-              recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-              itaque. Nam.</p>
+            <p class="mb-5">This is LIRI.
+              <br>LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI
+              is a Language Interpretation and Recognition Interface.
+              <br>LIRI is be a command line node app that takes in parameters and gives back data.</p>
             <a class="btn btn-primary btn-lg rounded-pill" href="https://github.com/NaeSlayer/liri-node-app" target="_blank">
               <i class="fa"></i>
               Check It Out!</a>
@@ -486,9 +502,12 @@
             <h2 class="text-secondary text-uppercase mb-0">Node Bamazon App</h2>
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-5" src="img/portfolio/bamazon.jpg" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
-              recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-              itaque. Nam.</p>
+            <p class="mb-5">Welcome to Bamazon!
+              <br>Bamazon is an online store with three modes: Customer, Manager, and Supervisor. In the Customer mode you can
+              view a list of availble products and make purchases. In the Manager mode you can view inventory, view a list
+              of products with low inventory, add products to the inventory, and add new products to the store. In the Supervisor
+              mode you can view sales information by department and create new departments.
+              <br>Please see the screenshots to view functionality.</p>
             <a class="btn btn-primary btn-lg rounded-pill" href="https://github.com/NaeSlayer/bamazon/" target="_blank">
               <i class="fa"></i>
               Check It Out!</a>
@@ -513,9 +532,11 @@
             <h2 class="text-secondary text-uppercase mb-0">Friendfinder APP</h2>
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-5" src="img/portfolio/friends.jpg" alt="">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
-              recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-              itaque. Nam.</p>
+            <p class="mb-5">Welcome to FriendFinder!
+              <br>See which character from the TV show, The Office, you are most compatible with. Friendfinder uses Express to
+              handle routing.
+              <br> Please go to the survey and fill out all fields to see who you are most compatible with!
+            </p>
             <a class="btn btn-primary btn-lg rounded-pill" href="https://naeslayerfriendfinder.herokuapp.com/" target="_blank">
               <i class="fa"></i>
               Check It Out!</a>

@@ -8,3 +8,11 @@
      width: 70%;
      margin: auto;
  }
+
+ .contact-email {
+     float: left;
+ }
+
+ .contact-phone {
+     float: right;
+ }
